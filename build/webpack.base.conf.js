@@ -24,6 +24,7 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
+    // 一些路径的假名，这样我们就可节省大量时间去计算文件与文件之间的嵌套关系了
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),

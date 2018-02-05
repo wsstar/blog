@@ -1,0 +1,172 @@
+.talk{
+    width: 800px;
+    margin-top: 100px;
+}
+.love{
+    width: 90%;
+    height: 60px;
+    text-align: left;
+    line-height: 60px;
+    font-size: 20px;
+    color: rgb(235, 141, 138);
+}
+.kind{
+    display: inline-block;
+    width: 60px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.account{
+    width: 100%;
+    transition: all .5s;
+    
+}
+.name{
+    width: 200px;
+    height: 30px;
+    text-indent: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccc;
+    
+}
+.login{
+    width: 50px;
+    height: 30px;
+    background:rgba(245, 88, 82, 0.5);
+    border:none;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+}
+.talktxt{      
+    width: 90%;
+    height: 250px;
+    margin-top: 20px;
+    resize: none;
+    border:1px solid #ccc;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    outline:none;
+    border-radius: 4px;
+    color: #000;
+    font-size: 16px;
+    transition: all 0.5s;
+    
+}
+.go{
+    display: block;
+    width: 90%;
+    height: 40px;
+    background: #fff;
+    border:1px solid #bbb;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+    transition: all 1s;
+    cursor: pointer;
+}
+.go:hover{
+    color: rgb(235, 141, 138);
+    border: 1px solid rgb(235, 141, 138);
+}
+.bounce-enter-active {
+    animation: bounce-in .5s;
+}
+.bounce-leave-active {
+    animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+0% {
+    transform: scale(0);
+}
+50% {
+    transform: scale(1.5);
+}
+100% {
+    transform: scale(1);
+}
+}
+.other{
+    width: 90%;
+    /* margin-top: 60px; */
+    /* border-bottom: 1px solid #ccc; */
+}
+.all{
+    width: 90%;
+    height: 30px;
+    margin-top: 100px;
+    border-bottom:1px dashed #ccc;
+    text-align: left;
+    line-height:30px;
+}
+.otherb{
+    display: inline-block;
+    height: 100%;
+    border-bottom: 2px solid rgb(235, 141, 138);
+}
+.othern{
+    float: right;
+    width: 60px;
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+    transition: all 1s;
+}
+.active{
+    border-bottom: 2px solid rgb(235, 141, 138);
+}
+.par{
+    width: 90%;
+    /* border-bottom:1px solid #ccc; */
+}
+.par-first{
+    width: 100%;
+    text-align: left;
+
+}
+.blog{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin:20px;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+    transition: all 1s;
+}
+.par-txt{
+    width:80%;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.blog-name{
+    height: 40px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.reply{
+    color: #666;
+    margin: 10px 0 0 10px;
+    
+}
+.par-list{
+    width: 80%;
+    margin-left: 80px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+.list-txt{
+    width:80%;
+    float: left;
+    /* border-bottom: 1px solid #ccc; */
+    padding-bottom: 10px;
+}
+.blog:hover{
+    transform: rotate(360deg)
+}
